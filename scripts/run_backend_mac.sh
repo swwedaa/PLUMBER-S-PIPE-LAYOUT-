@@ -31,6 +31,8 @@ export VECLIB_MAXIMUM_THREADS="${VECLIB_MAXIMUM_THREADS:-1}"
 export NUMEXPR_NUM_THREADS="${NUMEXPR_NUM_THREADS:-1}"
 # Allow ops not implemented on MPS to fall back to CPU automatically.
 export PYTORCH_ENABLE_MPS_FALLBACK="${PYTORCH_ENABLE_MPS_FALLBACK:-1}"
+# No CUDA on macOS; match a stable manual setup (user reports fewer crashes with this set).
+export CUDA_VISIBLE_DEVICES=""
 
 HOST="${BACKEND_HOST:-0.0.0.0}"
 PORT="${BACKEND_PORT:-8001}"
