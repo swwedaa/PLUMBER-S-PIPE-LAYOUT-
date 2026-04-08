@@ -1,6 +1,6 @@
 # Pipe layout prototype — runbook (half page)
 
-**Three roles:** **PC** = Windows + GPU backend. **Mac** = Flutter dev / optional `curl` tests. **iPhone** = Pipe Layout app + MetaRoom (scan) + same Wi‑Fi as PC.
+**Three roles:** **PC** = Windows + GPU backend (or **Mac** — see `docs/MAC_BACKEND_AND_SWIFT.md`). **Mac** = Flutter dev / optional `curl` tests / optional native Swift app. **iPhone** = Pipe Layout app + MetaRoom (scan) + same Wi‑Fi as backend.
 
 ---
 
